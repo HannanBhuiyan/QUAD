@@ -1,0 +1,152 @@
+ 
+ 
+
+@media screen and (max-width: 1440px) {
+      
+}
+@media screen and (max-width: 1339px) {
+   
+     
+}
+
+
+ 
+@media screen and (max-width: 1199px) {
+     
+}
+
+
+@media screen and (min-width: 992px) {
+     .mobile-menu {
+          display: none;
+     }
+}
+
+@media screen and (max-width: 991px) {
+      
+     .mobile-menu {
+          display: block;
+     }
+     .menu_section {
+          display: none;
+     }  
+     .cul_item_bottom h2 {
+          padding: 120px 0px;
+     }
+     .header-logo.mobile_logo img {
+          width: 100px;
+     }
+     .footer_item_one img {
+          width: 100%;
+     }
+     .home_slider_content h2 {
+          font-size: 35px;
+     }
+     .home_slider_content {
+          text-align: center;
+     }
+     .culture_item_left.ccc {
+          padding: 70px 20px 0px 20px;
+     }
+     .culture_item_left {
+          padding: 65px 20px 56px 20px;
+     }
+     .culture_item_left h2 {
+          margin-bottom: 20px;
+     }
+     .culture_item_right_list {
+          padding-bottom: 34px;
+     }
+     .culture_item_left.cul_two_left {
+          padding: 62px 20px 34px 20px;
+     }
+     .culture_bg_two {
+          height: 332px;
+          padding-top: 95px;
+      }
+      
+}
+
+
+ 
+
+@media screen and (max-width: 767px) {
+     
+     .header-menu {
+          padding-top: 50px;
+     }
+    
+     .footer_item_one {
+          padding-left: 0px;
+     }
+     
+
+}
+
+
+
+@media screen and (max-width: 575px) {
+     
+     .hero_section {
+          margin-top: -42px;
+     }
+     .home_slider_img img {
+          height: 455px; 
+     }
+     .home_slider_content h2 {
+          font-size: 18px;
+     }
+     .home_slider_content p {
+          font-size: 16px;
+          padding-top: 12px;
+     }
+     .home_we_are_section_inner h2, 
+     .commitment_inner h2, 
+     .culture_item_left h2,
+     .culture_item_middle h2,
+     .cul_item_bottom h2,
+     .industries_title h2 {
+          font-size: 20px;
+     }
+     .home_we_are_section_inner p ,
+      .commitment_inner p,
+      .culture_item_left p,
+      .culture_item_middle p {
+          font-size: 16px;
+     }
+     .cul_item_bottom h2 {
+          padding: 50px 0px;
+     }
+     .culture_bg_two {
+          height: 167px;
+          padding-top: 68px;
+     }
+     .culture_item_middle {
+          padding: 50px 50px;
+     }
+     .culture_item_middle.culture_bg_two h2 {
+          padding-bottom: 0px;
+     }
+     .footer_inner { 
+          justify-content: center;
+      }
+      
+}
+
+
+@media screen and (max-width: 425px) {
+     
+}
+
+@media screen and (max-width: 375px) {
+     
+}
+
+@media screen and (max-width: 374px) {
+     
+}
+
+@media screen and (max-width: 320px) {
+     
+     
+}
