@@ -589,3 +589,222 @@ a.banner_btn {
     color: #fff;
 }
 /* home page css end here */
+
+
+
+/* about page css start here */
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    top: 62%;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+}
+span.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px; 
+}
+.about_info p {
+    font-size: 18px;
+}
+.about_comm_title h2 {
+    margin-bottom: 13px;
+}
+.about_para_section {
+    padding: 40px 0px 30px 0px;
+}
+.about_para_section p {
+    font-size: 24px;
+    font-family: var(--roboto_canden-family);
+    font-weight: 200;
+    text-align: justify;
+}
+.about_culture_section {
+    background-image: url(../images/about/about01.jpg);
+    padding: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.about_culture_content h2 {
+    font-family: var(--roboto-family);
+    font-size: 44px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.about_culture_content p {
+    font-size: 20px;
+    font-family: var(--roboto_canden-family);
+    font-weight: 200;
+}
+.blockQuote_section {
+    background-image: url('../../assets/images/about/about02.jpg');
+    padding: 170px 0px;
+    background-color: #0000008c;
+    background-blend-mode: overlay;
+}
+.blockQuote_section blockquote p, .blockQuote_footer h2 {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 60px;
+}
+.blockQuote_footer {
+    margin-left: 50px;
+}
+.service_section {
+    background: #EFEFEF;
+    padding: 35px 0px 40px;
+}
+
+.service_item {
+    background: #fff;
+    padding: 30px 30px 20px;
+}
+
+.service_item p {
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 14px;
+}
+.service_title h2 {
+    color: #192E41;
+    font-family: "Roboto", Sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 22px;
+}
+/* about page css end here */
+
+
+/* corporate page css start here */
+
+.corporate_hero_section,
+.safety_bg {
+    padding: 245px 0px 180px 0px;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000087;
+    background-blend-mode: overlay;
+    background-position: center;
+}
+.safety_bg {
+    background-image: url('../../assets/images/safety.jpg') ;
+}
+
+.corporate_hero_section {
+    background-image: url('../../assets/images/corporate01.jpg');
+    
+}
+.corporate_hero_content h2 {
+    color: #FFFFFF;
+    font-family: var(--roboto-family);
+    font-size: 66px;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.corporate_hero_content p {
+    color: #FFFFFF;
+    font-family: var(--roboto_canden-family);
+    font-size: 19px;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 0.8px;
+}
+
+.cor_img img {
+    width: 100%;
+}
+.cor_img {
+    position: relative;
+}
+
+.cor_img_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 99999;
+}
+.corporate_social_activities {
+    background: #EFEFEF;
+    padding: 40px 0px;
+}
+
+.corporate_social_activities_item {
+    background: #fff;
+    padding: 10px;
+    height: 615px;
+}
+.cor_img_title h2 {
+    color: #FFFFFF;
+    font-family: var(--roboto-family);
+    font-size: 34px;
+    font-weight: 300;
+}
+.cor_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000005c;
+    z-index: 999;
+}
+.corporate_social_activities_item p {
+    color: #000000;
+    font-family: var(--roboto_canden-family);
+    font-size: 17px;
+    font-weight: 300;
+    text-align: justify;
+    padding-top: 22px;
+    line-height: 30px;
+    margin: 0;
+}
+.corporate_test_logo ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.corporate_test_logo {
+    max-width: 799px;
+    margin: auto;
+}
+
+.corporate_test_logo ul li {
+    list-style: none;
+}
+
+
+/* corporate page css end here */

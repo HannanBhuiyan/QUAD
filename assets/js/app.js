@@ -29,6 +29,7 @@ $('.header-menu ul li a').on('click', function(e) {
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     effect: "fade",
+    loop: true,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
