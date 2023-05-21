@@ -5,14 +5,21 @@
       
 }
 @media screen and (max-width: 1339px) {
-   
-     
+     .membership_blop_item {
+          height: 785px;
+     }
+     .asset_item_one_right img {
+          width: 100%;
+          height: auto;
+     }
 }
 
 
  
 @media screen and (max-width: 1199px) {
-     
+     .membership_blop_item {
+          height: 870px;
+     }
 }
 
 
@@ -23,6 +30,13 @@
 }
 
 @media screen and (max-width: 991px) {
+     .membership_blop_item {
+          height: auto;
+      }
+     .safty_logo_list ul li {
+          list-style: none;
+          margin-top: 20px;
+     }      
      .service_item {
           margin-bottom: 30px;
      }
@@ -74,6 +88,15 @@
  
 
 @media screen and (max-width: 767px) {
+     .swiper-button-next, .swiper-button-prev {
+          display: none;
+     }
+     .asset_item_two_bottom_img  img {
+          width: 100%;
+     }
+     .asset_item_one_left h2, .asset_item_two_wrapper h2 {
+          font-size: 19px;
+     }
      .home_we_are_section_inner h2, .service_title h2 {
           font-size: 27px;
       }
@@ -87,12 +110,21 @@
      .about_culture_section {
           padding: 40px 0px; 
      }
+     .corporate_social_activities_item {
+          margin-bottom: 30px;
+     }
      
 }
 
 
 
 @media screen and (max-width: 575px) {
+     .corporate_hero_section, .safety_bg, .membership_bg { 
+          padding: 147px 0px 100px;
+     }
+     .corporate_hero_content h2 {
+          font-size: 28px;
+     }
      .blockQuote_section blockquote p, .blockQuote_footer h2 {
           font-size: 28px;
           line-height: 48px;

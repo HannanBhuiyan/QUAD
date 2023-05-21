@@ -26,6 +26,36 @@ $('.header-menu ul li a').on('click', function(e) {
 });		
 
 
+new Swiper(".safety_swipper", {
+  slidesPerView: 6,
+  spaceBetween: 30,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  breakpoints: {
+    992: {
+      slidesPerView: 6,
+    },
+    768: {
+      slidesPerView: 4,
+    },
+    576: {
+      slidesPerView: 3,
+    },
+    320: {
+      slidesPerView: 2,
+    },
+  },
+
+});
+
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     effect: "fade",
@@ -39,6 +69,9 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
+
+
+
 
   new WOW().init();
 

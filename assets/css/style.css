@@ -703,8 +703,8 @@ span.swiper-pagination-bullet {
 /* corporate page css start here */
 
 .corporate_hero_section,
-.safety_bg {
-    padding: 245px 0px 180px 0px;
+.safety_bg, .membership_bg {
+    padding: 280px 0px 204px 0px;
     text-align: center;
     color: #fff;
     background-repeat: no-repeat;
@@ -719,6 +719,10 @@ span.swiper-pagination-bullet {
 
 .corporate_hero_section {
     background-image: url('../../assets/images/corporate01.jpg');
+    
+}
+.membership_bg {
+    background-image: url('../../assets/images/membership/membership_bg.png');
     
 }
 .corporate_hero_content h2 {
@@ -806,5 +810,141 @@ span.swiper-pagination-bullet {
     list-style: none;
 }
 
-
 /* corporate page css end here */
+
+/* safety page css start here */
+.safty_logo_list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    padding: 50px;
+}
+
+.safty_logo_list ul li {
+    list-style: none;
+}
+.safety_image {
+    width: 139px !important;
+    height: auto !important;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.safty_logo_list ul li img {
+    width: 100%;
+}
+.safety_logo_slider_inner .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+}
+.safety_logo_slider_inner .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+}
+.safety_logo_slider_inner .swiper-button-prev{
+    top: 40%;
+    padding-right: 35px;
+}
+.safety_logo_slider_inner .swiper-button-next {
+    top: 40%;
+    padding-left: 35px;
+}
+.safety_logo_slider_inner span.swiper-pagination-bullet {
+    width: 9px;
+    height: 9px;
+}
+.safety_logo_slider_inner  span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #000;
+}
+.safety_logo_slider_section {
+    margin-bottom: 40px;
+}
+/* safety page css end here */
+
+
+/* membership page css start here */
+.membership_blog_Section {
+    background: #EFEFEF;
+    padding: 35px 0px 15px 0px;
+}
+
+.membership_blop_item {
+    background: #fff;
+    padding: 17px;
+    text-align: center;
+    height: 739px;
+    margin-bottom: 20px;
+}
+
+.membership_blop_item p {
+    text-align: justify;
+    color: #000000;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 33px;
+    margin-top: 30px;
+}
+.membership_blop_item.membershipextra img {
+    width: 100%;
+}
+/* membership page css end here */
+
+
+/* asset intergrity management */
+.home_slider_content.asset_home_slider {
+    width: 100%;
+}
+.asset_item_one_right img {
+    max-height: 380px;
+}
+.asset_item_one_left h2,
+.asset_item_two_wrapper  h2 {
+    color: #192E41;
+    font-family: "Roboto", Sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 22px;
+    width: 93%;
+}
+.asset_item_two_list ul,
+.asset_item_one_list ul {
+    margin-left: 15px;
+    padding: 0;
+}
+.asset_into_para_inner p, 
+.asset_item_one_left p,
+.asset_item_one_list ul li,
+.asset_item_two_wrapper p,
+.asset_item_two_list ul li {
+    color: #000000;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.asset_into_para_inner {
+    margin-bottom: 36px;
+}
+.asset_item_two_wrapper h2 {
+    margin-top: 28px;
+}
+
+.asset_item_two_left_bottom h2 {
+    margin-top: 50px;
+}
+.asset_into_para {
+    padding-top: 50px;
+}
+
+.asset_item_two_section {
+    padding-bottom: 30px;
+}
+/* asset intergrity management */
