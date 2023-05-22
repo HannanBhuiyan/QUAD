@@ -261,15 +261,13 @@ a.active {
   }
 
 
-  .home_slider_item {
+  .home_slider_img {
     position: relative;
 }
 
 .home_slider_content {
     position: absolute;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 40%;
     z-index: 999999;
 }
 .overlay {
@@ -703,8 +701,8 @@ span.swiper-pagination-bullet {
 /* corporate page css start here */
 
 .corporate_hero_section,
-.safety_bg, .membership_bg {
-    padding: 280px 0px 204px 0px;
+.safety_bg, .membership_bg, .integrity_bg {
+    padding: 260px 0px 204px 0px;
     text-align: center;
     color: #fff;
     background-repeat: no-repeat;
@@ -721,6 +719,10 @@ span.swiper-pagination-bullet {
     background-image: url('../../assets/images/corporate01.jpg');
     
 }
+.integrity_bg {
+    background-color: #BDBDBD !important;
+}
+
 .membership_bg {
     background-image: url('../../assets/images/membership/membership_bg.png');
     
@@ -947,4 +949,187 @@ span.swiper-pagination-bullet {
 .asset_item_two_section {
     padding-bottom: 30px;
 }
+.asset_item_one_left.plant_reliability {
+    margin-bottom: 30px;
+}
 /* asset intergrity management */
+
+
+
+/* inspection page start here */
+.asset_item_one_left.ins_item_one_left img {
+    width: 100%;
+}
+.ins_right_section {
+    background-image: url('../../assets/images/ins04.jpeg');
+    padding: 20px 0px;
+}
+.ins_right_section p {
+    margin: 0;
+}
+.inspection_left_section {
+    color: #000000;
+    font-family: var(--roboto_canden-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.ins_left_item {
+    background: #0A5278;
+    color: #Fff;
+    padding-bottom: 10px;
+}
+
+.ins_left_item h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    padding: 14px 14px 7px 14px;
+    line-height: 25px;
+}
+.ins_left_sub_sec {
+    margin-bottom: 50px;
+}
+
+.ins_right_inner_content {
+    color: #fff;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.inspection_body {
+    padding: 50px 0px;
+}
+.ratating_list_two ul li ,
+.reassesment_item ul li {
+    color: #000000;
+    font-family: var(--roboto_canden-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+h4.rotating_sub_title {
+    font-weight: 600;
+    font-family: var(--roboto_canden-family);
+    font-size: 18px;
+    margin: 19px 0px 12px 0px;
+}
+.ratating_list_two ul {
+    margin-bottom: 21px;
+}
+/* inspection page start here */
+
+
+/* cathodic page css start here */
+
+.asset_item_one_left.cathodic_title {
+    padding: 35px 0px;
+}
+
+.cathedic_img img , .cathodic_right_img img {
+    width: 100%;
+}
+.catho_right_heading {
+    margin-top: 34px;
+}
+.asset_item_one_left.cathedic_img {
+    margin-bottom: 30px;
+}
+/* cathodic page css end here */
+
+/* reassessment page css start here */
+.reassesment_item h2 {
+    font-weight: 600;
+    font-family: var(--roboto_canden-family);
+    font-size: 19px;
+    padding: 20px 0px;
+}
+/* reassessment page css start here */
+
+
+/* earth page css start here */
+.asset_item_one_left.earth_item {
+    margin-top: 38px;
+}
+.earth_item_section {
+    margin: 60px 0px;
+}
+/* earth page css end here */
+
+
+/* traning section start here */
+
+.integraity_traning_item img {
+    width: 100%;
+}
+
+.traning_btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    border: 2px solid #fff;
+    padding: 9px 23px;
+    display: inline-block;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.integraity_traning_item {
+    position: relative;
+    margin-bottom: 25px;
+}
+.integraity_traning_item:hover .traning_btn {
+    opacity: 1;
+}
+.integraity_traning_item:hover .traning_overlay_two {
+    opacity: 1;
+}
+.integraity_traning_item:hover .traning_overlay {
+    opacity: 0;
+}
+
+
+.traning_btn a {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Roboto Condensed';
+    text-decoration: none;
+}
+.traning_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000094;
+    z-index: 999;
+    transition: all .3s ease-in-out;
+}
+.traning_overlay_two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #265179B0;
+    z-index: 999;
+    transition: all .3s ease-in-out;
+    opacity: 0;
+}
+.integraity_traning_item.vision_item {
+    text-align: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+ 
+/* traning section here here */
+
+.swiper-slide.swiper-slide-visible.swiper-slide-active .home_slider_content{
+    animation: fadeInLeftBig ease 2s;
+}

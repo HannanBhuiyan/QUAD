@@ -27,6 +27,9 @@
      .mobile-menu {
           display: none;
      }
+     .earth_image img {
+          width: 100%;
+     }
 }
 
 @media screen and (max-width: 991px) {
@@ -88,6 +91,9 @@
  
 
 @media screen and (max-width: 767px) {
+     .reas_img img {
+          width: 100%;
+     }
      .swiper-button-next, .swiper-button-prev {
           display: none;
      }
