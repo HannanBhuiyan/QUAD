@@ -62,7 +62,7 @@
     display: inline-block;
 } 
 a.active {
-    color: #fff !important;
+    color: var(--hover_color) !important;
 }
 .menu_left .logo img {
     height: 43px;
@@ -267,8 +267,10 @@ a.active {
 
 .home_slider_content {
     position: absolute;
-    top: 40%;
+    top: 50%;
     z-index: 999999;
+    width: 100%;
+    text-align: center;
 }
 .overlay {
     position: absolute;
@@ -701,7 +703,7 @@ span.swiper-pagination-bullet {
 /* corporate page css start here */
 
 .corporate_hero_section,
-.safety_bg, .membership_bg, .integrity_bg {
+.safety_bg, .membership_bg, .integrity_bg, .join_our_team , .contact_section{
     padding: 260px 0px 204px 0px;
     text-align: center;
     color: #fff;
@@ -714,7 +716,12 @@ span.swiper-pagination-bullet {
 .safety_bg {
     background-image: url('../../assets/images/safety.jpg') ;
 }
-
+.contact_section {
+    background-image: url('../images/contact.jpg');
+}
+.join_our_team {
+    background-image: url('../../assets/images/join01.jpg') ;
+}
 .corporate_hero_section {
     background-image: url('../../assets/images/corporate01.jpg');
     
@@ -1127,9 +1134,144 @@ h4.rotating_sub_title {
     left: 50%;
     top: 50%;
 }
- 
+
+.integraity_traning_item.vision_item h2,
+.integrity_course_info_item h2 {
+    font-family: var(--roboto-family);
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.integraity_traning_item.vision_item p,
+.integrity_course_info_item p {
+    color: #010101;
+    font-family: var(--roboto_canden-family);
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.7em;
+}
+.integrity_course_info_item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.integrity_course_info_item h2 {
+    padding: 16px 0px 15px;
+}
 /* traning section here here */
 
-.swiper-slide.swiper-slide-visible.swiper-slide-active .home_slider_content{
-    animation: fadeInLeftBig ease 2s;
+.swiper-slide.swiper-slide-visible.swiper-slide-active .home_slider_content {
+    animation: fadeInRightBig ease 2s;
 }
+
+
+/* join our team */
+
+.home_we_are_section_inner.join h2 {
+    color: #000000;
+    font-family: var(--roboto-family);
+    font-size: 28px;
+    font-weight: 300;
+}
+.home_we_are_section_inner.join p {
+    color: #000000;
+    font-family: var(--roboto_canden-family);
+    font-size: 16px;
+    font-weight: 300;
+}
+.home_we_are_section_inner.join {
+    border-top: 1px solid #ddd;
+    padding-top: 21px;
+}
+.join_btn {
+    text-align: center;
+}
+
+.join_btn a {
+    text-decoration: none;
+    background: #0B1D31;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    box-shadow: 2px 10px 18px -4px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 2px 10px 18px -4px rgba(0,0,0,0.59);
+    -moz-box-shadow: 2px 10px 18px -4px rgba(0,0,0,0.59);
+}
+
+.join_btn a span i {
+    padding-right: 10px;
+}
+
+/* join our team */
+
+
+/* contact section start here */
+
+.contact_body_section {
+    background: #EFEFEF;
+    padding: 30px 0px;
+}
+
+.contact_list {
+    background: #192E41;
+    color: #fff;
+}
+
+.contact_list ul {
+    margin: 0;
+    padding: 0;
+    padding: 70px 83px 55px 30px;
+}
+
+.contact_list ul li {
+    list-style: none;
+    color: #FFFFFF;
+    font-family: var(--roboto-family);
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.contact_fm {
+    background: #F8F8FA;
+    padding: 20px;
+}
+.contact_fm input, .contact_fm textarea {
+    border-color: rgba(0,0,0,0.15);
+    border-radius: 0px 0px 0px 0px;
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 18px;
+    outline: none;
+    text-align: center;
+    font-family: var(--roboto-family);
+    font-weight: 400;
+    color: #000;
+}
+.contact_fm input::placeholder {
+    font-family: var(--roboto-family);
+    font-size: 17px;
+    font-weight: 400;
+    color: #B4B4B4;
+    text-align: center;
+}
+button.contact_submit_btn {
+    color: #fff;
+    background: #000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    padding: 10px 32px;
+    margin-top: -7px;
+    outline: none;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+button.contact_submit_btn:hover {
+    transform: scale(1.1);
+    background-color: #0A5278;
+}
+
+/* contact section end here */

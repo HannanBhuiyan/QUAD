@@ -125,6 +125,13 @@
 
 
 @media screen and (max-width: 575px) {
+     .contact_list ul li {
+          font-size: 13px;
+          margin-bottom: 8px;
+     }
+     .contact_list ul {
+          padding: 43px 69px 27px 30px;
+     }
      .corporate_hero_section, .safety_bg, .membership_bg { 
           padding: 147px 0px 100px;
      }
