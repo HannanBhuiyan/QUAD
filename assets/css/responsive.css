@@ -1,8 +1,15 @@
  
  
 
+@media screen and (max-width:  1560px) {
+     .footer_item_one {
+          padding-left: 0px !important;
+     }
+}
 @media screen and (max-width: 1440px) {
-      
+     .footer_item_one img {
+          width: 700px;
+     }
 }
 @media screen and (max-width: 1339px) {
      .membership_blop_item {
@@ -11,6 +18,10 @@
      .asset_item_one_right img {
           width: 100%;
           height: auto;
+     }
+     .footer_item_one img {
+          width: 600px;
+          padding-top: 45px;
      }
 }
 

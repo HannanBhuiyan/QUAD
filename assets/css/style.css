@@ -509,6 +509,7 @@ a.banner_btn {
 .footer_inner {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .footer_item_two ul li ,.footer_item_three ul li {
     padding-bottom: 9px;
